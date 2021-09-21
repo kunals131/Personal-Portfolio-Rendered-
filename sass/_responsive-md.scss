@@ -1,0 +1,42 @@
+@include media-md {
+    
+    #phone__logo {
+        display: block;
+    }
+    #dekstop__logo {
+        display: none;
+    }
+
+    .logo {
+        &__name {
+            font-size: 1.4rem;
+        }
+        &__box {
+            width: 30px;
+            height: 30px;
+            left: 6.5rem;
+            top: 1.33rem;
+        }
+    }
+
+    .nav {
+        .nav-menu {
+            margin-left: -2rem;
+            grid-template-columns: repeat(3,0.1fr);
+            justify-content: center;
+            align-items: center;
+
+            &__link {
+                font-size: 1rem;
+            }
+
+        }
+    }
+
+    .social-icons {
+        &__container {
+        grid-template-columns: repeat(3,3.7rem);
+        }
+    }
+}
+
